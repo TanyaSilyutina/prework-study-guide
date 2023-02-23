@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img id="cat" src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="html-section">
@@ -28,7 +29,12 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Every HTML element is essentially a box. Each box consists of margins outside the element, and the element's borders, padding, and content. This is sometimes referred to as <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">the CSS box model</a>.</li>
+          <img id="css" src="./assets/css-rule.png" alt="Diagram of a CSS rule." />
+          <li>As portrayed in the preceding image, a selector defines the element or attributes to which the rules, or declarations, will apply.</li>
+          <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
         </ul>
       </section>
 
@@ -45,16 +51,13 @@
               <li>git fetch: downloads changes from remote to your local repo</li>
               <li>git merge: applies the changes to local repo</li>
             </ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
         </ul>
+        <p id="git"> Steps to push code to Git:</p>
+        <ol>
+          <li>git add .</li>
+          <li>git commit -m "message"</li>
+          <li>git push origin &#60;branch name&#62;</li>
+        </ol>
       </section>
 
       <section class="card" id="javascript-section">
